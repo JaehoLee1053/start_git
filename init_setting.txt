@@ -1,0 +1,14 @@
+git config --global user.name "your name"
+git config --global user.email "your email"
+
+cd /Users/"name"/directory
+# Repository 저장할 dir로 이동
+mkdir "생성할 폴더명"
+cd "생성한 폴더"
+git clone http://github.com/~~/"repository name"
+cd "repository name"
+vi "file name"
+
+git add "file name"
+git commit -m "update "file name""
+git push
